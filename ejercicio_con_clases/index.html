@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de habitación.</title>
+</head>
+<body>
+    <section>
+        <h2>Registro de Reserva</h2>
+        <form action="reservarHabitacion.php" method="post">
+            <label for="diasEstadia">Días de Estadía:</label>
+            <input type="number" name="diasEstadia" id="diasEstadia">
+            <br><br>
+            <label for="tipoDHabitacion">Tipo de Habitación:</label>
+            <select name="tipoDHabitacion" id="tipoDHabitacion">
+                <option value="individual">Individual</option>
+                <option value="doble">Doble</option>
+                <option value="familiar">Familiar</option>
+            </select>
+            <br><br>
+            <label for="cantHuesped">Cantidad de Huéspedes:</label>
+            <input type="number" name="cantHuesped" id="cantHuesped">
+            <br><br>
+            <input type="submit" value="Reservar">
+        </form>
+    </section>
+<footer>
+    &copy; created by JOA - 2024
+</footer>
+    
+</body>
+</html>
